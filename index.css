@@ -1,0 +1,48 @@
+@media screen and (min-width:1024px){
+    body{
+        padding: 0 0;
+        margin: 0 0;
+    }
+
+    #navbar{
+        position: fixed;
+        width: 250px;
+        height: 100%;
+        overflow: scroll;
+        margin-left: 0;
+    }
+    #navbar header{
+        margin-top: 25px;
+    }
+    
+    #navbar a{
+        margin-left: 0;
+        display: block;
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+    }
+    #navbar li{
+        list-style-type: none;
+        border-top: 1px solid;
+        padding-left: 0;
+    }
+    #navbar ul{
+        padding-left: 0;
+    }
+    main{
+        margin-left: 250px;
+    }
+    header{
+        font-size: 1.8em;
+        margin-left: 0;
+    }
+    section ~ header, p, code, ul{
+        margin-left: 30px;
+    }
+
+
+
+
+
+}
